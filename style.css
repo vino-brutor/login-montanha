@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family:  'Montserrat', sans-serif;
+}
+.container{
+  min-width: 100%;
+  min-height: 100vh;
+  background: rgb(34,34,34);
+  background: linear-gradient(0deg, rgba(34,34,34,1) 0%, rgba(85,85,85,1) 100%);
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-form{
+  background-image: url("https://photoatelier.files.wordpress.com/2017/03/tumblr_myymsekr7s1t2crmho1_500.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 2px;
+  border: #FFFFFF 2px solid;
+  width: 350px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+
+}
+.title{
+  color: #333333;
+  font-size: 35px;
+  padding: 5px;
+  margin-top: -40px;
+
+}
+.text-2{
+  font-size: 20px;
+}
+.borda-externa{
+  border: #FFFFFF 2px solid;
+  border-radius: 2px;
+  padding: 5px;
+}
+.Link{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: -10px;
+}
+.links , .links::after{
+  color: #FFFFFF;
+  text-decoration: none;
+  transition: 0.2S;
+}
+.links:hover{
+  text-decoration: underline;
+  transform: 0.2S;
+}
+input{
+  height: 30px;
+  padding: 10px 10px 10px 30px;
+  border-radius: 3px;
+  border: #333333 2px solid;
+  background-color: #FFFFFF;
+  font-size: 15px;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 80%;
+  gap: 10px;
+  font-size: 20px;
+  margin-top: -38px;
+}
+.material-symbols-outlined{
+  color: #333333;
+  margin-top: -36px;
+  margin-left: 5px;
+}
+span{
+  width: 2px;
+}
+#button{
+  padding-right: 105px;
+  padding-bottom: 30px;
+  width: 120px;
+  height: 40px;
+  border-radius: 6px;
+  border: #333333 4px solid;
+  color: #000000;
+  font-weight: 600;
+  background-color: #FFFFFF;
+  transition: 0.4s;
+}
+
+#button:hover{
+  cursor: pointer;
+  border: #0c0c0c 4px solid;
+  transition: 0.4s;
+}
+
+.Button{
+  padding-top: 70px;
+  display: flex;
+  justify-content: center;
+}
